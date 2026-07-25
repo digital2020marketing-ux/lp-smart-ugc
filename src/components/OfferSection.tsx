@@ -55,6 +55,9 @@ export function OfferSection() {
 
             {/* Price Box */}
             <div className="bg-slate-50 border border-emerald-300 rounded-2xl p-5 text-center mb-6 relative overflow-hidden">
+              <div className="inline-block bg-amber-100 border border-amber-300 text-amber-900 font-extrabold text-[0.78rem] px-3 py-1 rounded-full mb-3 animate-pulse">
+                ⏰ Promo Rp99.000 Hanya Sampai 17 Agustus 2026!
+              </div>
               <div className="text-[0.85rem] text-slate-500 line-through mb-1 font-bold">
                 Harga Normal: Rp498.000
               </div>
@@ -66,6 +69,24 @@ export function OfferSection() {
               </div>
               <div className="text-[0.82rem] text-emerald-700 font-black mt-2">
                 ✓ Sekali Bayar · Tanpa Biaya Langganan Bulanan SMART-UGC
+              </div>
+
+              {/* Tiered Price Timeline Notice */}
+              <div className="mt-4 pt-3 border-t border-slate-200 grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-left text-xs bg-amber-50/90 p-3.5 rounded-xl border border-amber-200">
+                <div className="flex items-start gap-2">
+                  <span className="text-amber-600 font-black text-sm">🔥</span>
+                  <div>
+                    <span className="font-black text-slate-900 block">S/d 17 Agustus 2026:</span>
+                    <span className="text-amber-800 font-extrabold text-[0.85rem]">Rp 99.000</span> (Diskon Terbesar)
+                  </div>
+                </div>
+                <div className="flex items-start gap-2">
+                  <span className="text-indigo-600 font-black text-sm">📈</span>
+                  <div>
+                    <span className="font-black text-slate-900 block">Setelah 17 Agustus 2026:</span>
+                    <span className="text-indigo-800 font-extrabold text-[0.85rem]">Rp 199.000</span> (Sebelum Normal <span className="line-through text-slate-500">Rp 498.000</span>)
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -98,10 +119,10 @@ export function OfferSection() {
 
             {/* Checkout Link */}
             <a 
-              href="https://digistoresia.co/product/dopamine-ugc-ads-commercial/" 
+              href="https://smartbook.myscalev.com/smart-ugc" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="flex justify-center items-center gap-2.5 bg-gradient-to-r from-amber-500 via-amber-600 to-amber-500 text-slate-950 py-4.5 px-6 rounded-2xl font-black text-[1.05rem] sm:text-[1.15rem] w-full shadow-md hover:-translate-y-1 transition-all border border-amber-400 uppercase"
+              className="flex justify-center items-center gap-2.5 bg-gradient-to-r from-red-600 via-rose-600 to-red-600 hover:from-red-500 hover:to-rose-500 text-white py-4.5 px-6 rounded-2xl font-black text-[1.05rem] sm:text-[1.15rem] w-full shadow-lg shadow-red-500/30 hover:-translate-y-1 transition-all border border-red-400 uppercase"
             >
               <span className="text-2xl">🚀</span>
               <span>Dapatkan Akses SMART-UGC Sekarang</span>

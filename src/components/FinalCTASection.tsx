@@ -44,14 +44,17 @@ export function FinalCTASection() {
             Ubah satu foto produk dan informasi singkat menjadi konsep video iklan yang lebih rapi, terarah, dan siap diproduksi.
           </p>
 
-          <div className="mb-6 p-4 bg-amber-50 border border-amber-200 rounded-2xl max-w-[500px] mx-auto text-center">
-            <div className="font-black text-amber-900 text-[1.1rem]">PROMO PELUNCURAN HANYA RP99.000</div>
-            <div className="text-[0.85rem] text-slate-700 font-semibold mt-1">Akses Lifetime - Tanpa Biaya Langganan Bulanan SMART-UGC</div>
+          <div className="mb-6 p-4 bg-amber-50 border border-amber-300 rounded-2xl max-w-[540px] mx-auto text-center shadow-xs">
+            <div className="font-black text-amber-900 text-[1.1rem]">PROMO TAHAP 1 HANYA RP99.000 <span className="text-xs bg-amber-200 px-2 py-0.5 rounded text-amber-950 font-bold ml-1 inline-block">S/d 17 Agustus 2026</span></div>
+            <div className="text-[0.85rem] text-slate-800 font-extrabold mt-1">
+              Berikutnya naik menjadi <span className="text-indigo-800">Rp199.000</span> sebelum ke harga normal <span className="line-through text-slate-500">Rp498.000</span>
+            </div>
+            <div className="text-[0.82rem] text-slate-700 font-semibold mt-1">✓ Akses Lifetime - Tanpa Biaya Langganan Bulanan SMART-UGC</div>
           </div>
 
           <a 
             href="#harga" 
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-amber-500 via-amber-600 to-amber-500 text-slate-950 px-8 sm:px-12 py-5 rounded-2xl text-[1.1rem] sm:text-[1.2rem] font-black shadow-md hover:-translate-y-1 transition-all border border-amber-400 relative group overflow-hidden uppercase"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-red-600 via-rose-600 to-red-600 hover:from-red-500 hover:to-rose-500 text-white px-8 sm:px-12 py-5 rounded-2xl text-[1.1rem] sm:text-[1.2rem] font-black shadow-lg shadow-red-500/25 hover:-translate-y-1 transition-all border border-red-400 relative group overflow-hidden uppercase"
           >
             <div className="absolute inset-0 bg-white/30 -translate-x-[150%] skew-x-[-20deg] group-hover:animate-[shimmer_1.5s_infinite]"></div>
             <span className="text-2xl group-hover:scale-125 transition-transform">🚀</span> 

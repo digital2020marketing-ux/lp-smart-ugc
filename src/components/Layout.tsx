@@ -53,8 +53,8 @@ export function Navbar() {
               {String(h).padStart(2, '0')}:{String(m).padStart(2, '0')}:{String(s).padStart(2, '0')}
             </div>
           </div>
-          <a href="#harga" className="bg-gradient-to-r from-[#F59E0B] to-[#D97706] text-black px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-lg sm:rounded-xl text-[0.75rem] sm:text-[0.85rem] font-black shadow-md hover:-translate-y-0.5 transition-all whitespace-nowrap uppercase">
-            <span>Ambil Promo Rp 99rb</span>
+          <a href="#harga" className="bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-500 hover:to-rose-500 text-white px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-lg sm:rounded-xl text-[0.75rem] sm:text-[0.85rem] font-black shadow-md shadow-red-500/20 hover:-translate-y-0.5 transition-all whitespace-nowrap uppercase border border-red-500">
+            <span>Ambil Promo Rp 99rb (S/d 17 Agt)</span>
           </a>
 
           {/* Mobile Menu Toggle Button */}
@@ -103,9 +103,9 @@ export function Navbar() {
           <a 
             href="#harga" 
             onClick={() => setMobileMenuOpen(false)} 
-            className="py-2 text-amber-700 font-black uppercase text-xs flex items-center justify-between"
+            className="py-2 text-red-600 font-black uppercase text-xs flex items-center justify-between"
           >
-            <span>🚀 Ambil Promo Rp99.000</span>
+            <span>🚀 Ambil Promo Rp99.000 (S/d 17 Agt)</span>
             <span>→</span>
           </a>
         </div>

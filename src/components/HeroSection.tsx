@@ -79,8 +79,13 @@ export function HeroSection() {
           <div className="bg-gradient-to-r from-amber-50 via-amber-100/60 to-indigo-50 border-2 border-amber-400 rounded-2xl p-4 sm:p-5 mb-6 shadow-sm">
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
               <div>
-                <div className="text-[0.75rem] font-black text-amber-900 uppercase tracking-widest bg-amber-300 px-2.5 py-0.5 rounded-md inline-block mb-1">
-                  PENAWARAN PELUNCURAN
+                <div className="flex flex-wrap items-center gap-2 mb-1.5">
+                  <span className="text-[0.75rem] font-black text-amber-900 uppercase tracking-widest bg-amber-300 px-2.5 py-0.5 rounded-md inline-block">
+                    PENAWARAN PELUNCURAN
+                  </span>
+                  <span className="text-[0.75rem] font-extrabold text-rose-700 bg-rose-100 border border-rose-300 px-2.5 py-0.5 rounded-md inline-block animate-pulse">
+                    ⏰ S/d 17 Agustus 2026
+                  </span>
                 </div>
                 <h3 className="font-heading text-[1.4rem] sm:text-[1.6rem] font-black text-slate-900">
                   AKSES LIFETIME HANYA <span className="text-amber-700 bg-amber-200 px-1.5 py-0.5 rounded">RP99.000</span>
@@ -88,6 +93,13 @@ export function HeroSection() {
                 <p className="text-[0.88rem] text-slate-800 font-bold mt-1">
                   Sekali bayar. Tanpa biaya langganan bulanan dari SMART-UGC.
                 </p>
+                <div className="mt-2.5 flex flex-wrap items-center gap-2 text-[0.8rem] font-extrabold text-indigo-950 bg-white/80 px-3 py-1.5 rounded-lg border border-indigo-200">
+                  <span>🔥 Tahap 1: Rp99.000 (S/d 17 Agt)</span>
+                  <span className="text-slate-400">|</span>
+                  <span>📈 Tahap 2: Rp199.000</span>
+                  <span className="text-slate-400">|</span>
+                  <span className="text-slate-600 line-through">Normal: Rp498.000</span>
+                </div>
               </div>
             </div>
             <p className="text-[0.78rem] text-slate-500 mt-2.5 pt-2 border-t border-amber-200/80 italic">
@@ -99,7 +111,7 @@ export function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-3 mb-4">
             <a 
               href="#harga" 
-              className="flex-1 bg-gradient-to-r from-amber-500 via-amber-600 to-amber-500 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black px-6 py-4 rounded-xl text-[1rem] sm:text-[1.05rem] transition-all shadow-md hover:-translate-y-0.5 text-center flex items-center justify-center gap-2 border border-amber-400 uppercase"
+              className="flex-1 bg-gradient-to-r from-red-600 via-rose-600 to-red-600 hover:from-red-500 hover:to-rose-500 text-white font-black px-6 py-4 rounded-xl text-[1rem] sm:text-[1.05rem] transition-all shadow-lg shadow-red-500/25 hover:-translate-y-0.5 text-center flex items-center justify-center gap-2 border border-red-400 uppercase"
             >
               <span>🚀</span> DAPATKAN AKSES LIFETIME RP99.000
             </a>

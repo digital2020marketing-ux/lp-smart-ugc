@@ -92,7 +92,7 @@ export function PricingAndFAQ() {
               </div>
 
               <a 
-                href="https://digistoresia.co/product/dopamine-ugc-ads-commercial/" 
+                href="https://smartbook.myscalev.com/smart-ugc" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex justify-center items-center gap-2 bg-gradient-to-r from-amber-500 to-amber-400 text-slate-950 py-4 px-6 rounded-2xl font-black text-[1.1rem] w-full hover:from-amber-400 hover:to-amber-300 hover:shadow-lg transition-all"

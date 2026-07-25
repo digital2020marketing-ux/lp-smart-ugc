@@ -34,7 +34,7 @@ export function FAQSection() {
     },
     {
       q: "Apakah ada biaya langganan bulanan dari SMART-UGC?",
-      a: "Tidak ada. Pembayaran Rp99.000 berlaku untuk akses lifetime tanpa biaya langganan bulanan dari SMART-UGC."
+      a: "Tidak ada. Pembayaran promo Tahap 1 sebesar Rp99.000 (berlaku sampai 17 Agustus 2026, setelah itu naik menjadi Rp199.000 hingga kembali ke harga normal Rp498.000) berlaku untuk akses lifetime tanpa biaya langganan bulanan dari SMART-UGC."
     },
     {
       q: "Apakah ada biaya tambahan untuk platform AI lain?",
